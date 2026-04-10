@@ -1,0 +1,26 @@
+{
+  "status": "OK",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "uptime": 3600,
+  "version": "1.2.3",
+  "environment": "production",
+  "node_id": "gun-node-001",
+  "metrics": {
+    "cpu_usage": 0.5,
+    "memory_usage": 0.6,
+    "disk_space": 0.75,
+    "active_connections": 150,
+    "requests_per_second": 10.2
+  },
+  "dependencies": {
+    "database": {
+      "status": "OK",
+      "latency": 0.01
+    },
+    "cache": {
+      "status": "OK",
+      "size": "10MB"
+    }
+  },
+  "alerts": []
+}
